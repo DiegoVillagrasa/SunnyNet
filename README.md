@@ -15,8 +15,8 @@ You can then:
 * Get a CSV file of the requested day ```interface.requestValuesFile("name_of_the_file");```
 * Get the watts produced that day in a double array ```interface.requestValues();```
 
-**Experimental**
-You can use ```setDateMonth()``` and ```sateDateYear()``` to request data for a specified period.
+**Experimental: **
+You can use ```setDateMonth()``` and ```setDateYear()``` to request data for a specified period.
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
