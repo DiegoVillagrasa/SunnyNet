@@ -1,0 +1,5 @@
+c:\users\diego\documents\visual studio 2015\Projects\SunnyNet\SunnyNet\obj\Release\SunnyNet.csprojResolveAssemblyReference.cache
+c:\users\diego\documents\visual studio 2015\Projects\SunnyNet\SunnyNet\bin\Release\SunnyNet.dll
+c:\users\diego\documents\visual studio 2015\Projects\SunnyNet\SunnyNet\bin\Release\SunnyNet.pdb
+c:\users\diego\documents\visual studio 2015\Projects\SunnyNet\SunnyNet\obj\Release\SunnyNet.dll
+c:\users\diego\documents\visual studio 2015\Projects\SunnyNet\SunnyNet\obj\Release\SunnyNet.pdb
