@@ -4,10 +4,10 @@
 ## Installation
 Download the library and include it into your .NET project
 ## Usage
-Create a new interface using ```SunnyNetInterface interface = new SunnyNetInterface;```
+Create a new interface using ```SunnyNetInterface interface = new SunnyNetInterface();```
 Login using your SunnyPortal credentials ```interface.Connect("username", "password");```
 
-* Get realtime watts generated '''interface.getWatts();'''
+* Get realtime watts generated ```interface.getWatts();```
 
 To access archived data, you'll first need to initialize the inverters ```interface.openInverter();```
 And set the date of the request ```interface.setDate("day", "month", "year");```
