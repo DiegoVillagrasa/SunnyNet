@@ -2,7 +2,7 @@
 # SunnyNet
 **SunnyNet** is a C# library to allow communication with your PV system via the SunnyPortal.
 ## Installation
-Download the library and include it into your .NET project
+Download the [library](https://github.com/DiegoVillagrasa/SunnyNet/blob/master/SunnyNet/bin/Release/SunnyNet.dll?raw=true) and include it into your .NET project
 ## Usage
 Create a new interface using ```SunnyNetInterface interface = new SunnyNetInterface();```
 Login using your SunnyPortal credentials ```interface.Connect("username", "password");```
