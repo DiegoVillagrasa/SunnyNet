@@ -75,19 +75,11 @@ namespace SunnyNet
             request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2";
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             var stream = response.GetResponseStream();
-
-            /*byte[] buffer = new byte[1024];
-            int bytesRead = 0;
-
-            FileStream fileStream = File.Create("Data.csv");
-            while((bytesRead = stream.Read(buffer, 0, 1024)) != 0)
-            {
-                fileStream.Write(buffer, 0, bytesRead);
-            }
-            fileStream.Close();*/
             int lineNum = 0;
 
             var read = new StreamReader(stream);
+            // Disabled the return of double values
+            //Trying to return strings for parsing
             /* double[] vs = new double[96];
              int lineNum = 0;
              while(!read.EndOfStream)
