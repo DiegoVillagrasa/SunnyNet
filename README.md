@@ -16,7 +16,7 @@ You can then:
 * Get the watts produced that day in a double array ```interface.requestValues();```
 
 **Experimental**
-You can use ```setDateMonth``` and ```sateDateYear``` to request data for a specified period.
+You can use ```setDateMonth()``` and ```sateDateYear()``` to request data for a specified period.
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
