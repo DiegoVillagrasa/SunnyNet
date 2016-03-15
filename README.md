@@ -9,8 +9,7 @@ Login using your SunnyPortal credentials ```interface.Connect("username", "passw
 
 * Get realtime watts generated ```interface.getWatts();```
 
-To access archived data, you'll first need to initialize the inverters ```interface.openInverter();```
-And set the date of the request ```interface.setDate("day", "month", "year");```
+To access archived data, you'll first need to initialize the inverters ```interface.openInverter();``` and set the date of the request ```interface.setDate("day", "month", "year");```
 
 You can then:
 * Get a CSV file of the requested day ```interface.requestValuesFile("name_of_the_file");```
